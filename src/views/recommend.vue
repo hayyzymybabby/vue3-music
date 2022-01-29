@@ -3,7 +3,14 @@
 </template>
 
 <script>
-export default {}
+import { getRecommend } from '@/service/recommend'
+export default {
+  name: 'recommend',
+  async created() {
+    const result = await getRecommend()
+    console.log(result)
+  }
+}
 </script>
 
-<style></style>
+<style lang="scss" scoped></style>

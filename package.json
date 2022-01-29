@@ -9,6 +9,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "axios": "^0.25.0",
+    "axios-retry": "^3.2.4",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
@@ -25,6 +27,7 @@
     "@vue/compiler-sfc": "^3.0.0",
     "@vue/eslint-config-standard": "^5.1.2",
     "babel-eslint": "^10.1.0",
+    "cookie-parser": "^1.4.5",
     "eslint": "^6.7.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.20.2",
@@ -33,10 +36,13 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^7.0.0",
     "husky": "^7.0.4",
+    "js-base64": "^3.6.0",
     "lint-staged": "^12.3.1",
-    "prettier": "2.5.1",
     "node-sass": "^5.0.0",
-    "sass-loader": "^10.1.0"
+    "pinyin": "^2.9.1",
+    "prettier": "2.5.1",
+    "sass-loader": "^10.1.0",
+    "xsrf": "^1.0.0"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
