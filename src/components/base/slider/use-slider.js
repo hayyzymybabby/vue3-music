@@ -26,7 +26,7 @@ export default function useSider(wrapperRef) {
   })
 
   onUnmounted(() => {
-    slider.value.destory()
+    slider.value.destroy()
   })
 
   return {
