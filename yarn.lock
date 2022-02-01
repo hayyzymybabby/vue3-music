@@ -10064,6 +10064,11 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.nlark.com/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz?cache=0&sync_timestamp=1622604416998&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-template-es2015-compiler%2Fdownload%2Fvue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
+vue3-lazy@^1.0.0-alpha.1:
+  version "1.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/vue3-lazy/-/vue3-lazy-1.0.0-alpha.1.tgz#326a56c2ade4430c76b7ac90d33a7fde0af9aaa6"
+  integrity sha512-dpjpKK4DC5q+wZVtS/VY3X6pYBJHxRmYanr20s39RB6o6fvbneQ/DNuz37bipYfEdrEvbSZ95Y2SCexuznQNrQ==
+
 vue@^3.0.0:
   version "3.2.29"
   resolved "https://registry.npmmirror.com/vue/download/vue-3.2.29.tgz#3571b65dbd796d3a6347e2fd45a8e6e11c13d56a"
